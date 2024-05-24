@@ -1,36 +1,33 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
+body {
+  background-image: url('https://t4.ftcdn.net/jpg/05/49/11/17/360_F_549111786_agPeaTAhKIGpYVxRBxP5yzc6yX8ZBOjK.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url('https://img.freepik.com/free-photo/soccer-field-high-angle_23-2150405432.jpg?size=626&ext=jpg&ga=GA1.1.2017528900.1714906872&semt=ais_user');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #45a049;
+.button:hover {
+  background-color: #0056b3;
 }
