@@ -59,18 +59,13 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is a resume
+- created with HTML and CSS
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
